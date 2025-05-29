@@ -20,6 +20,9 @@ public class Main {
 //    3. Выведите третий элемент списка
         System.out.println(Methods.getThirdElement(list));
 
+//    4. Удалите второй элемент списка и выведите оставшиеся
+        System.out.println(Methods.rmvSecondElement(list));
+
 
 
     }

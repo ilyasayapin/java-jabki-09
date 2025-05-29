@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Methods {
 
-//    2. Создайте список из 5 целых чисел. Выведите его элементы через пробел.
+    // 2. Создайте список из 5 целых чисел. Выведите его элементы через пробел.
     public static String prntList(List<Integer> list) {
         String printList = new String();
         for (Integer i : list) {
@@ -15,16 +15,20 @@ public class Methods {
         return (printList);
     }
 
-//    3. Выведите третий элемент списка
+    // 3. Выведите третий элемент списка
     public static Integer getThirdElement(List<Integer> list) {
         return list.get(2);
     }
 
-    /*
+    // 4. Удалите второй элемент списка и выведите оставшиеся
+    public static List<Integer> rmvSecondElement(List<Integer> list) {
+        List<Integer> newList = new ArrayList<>(list);
+        newList.remove(1);
+        return newList;
+    }
 
-//    4. Удалите второй элемент списка и выведите оставшиеся
-        list.remove(1);
-        System.out.println(list);
+
+          /*
 
     //    5. Найдите сумму всех чисел в списке
     int sum = 0;
@@ -182,4 +186,4 @@ public class Methods {
 
 */
 
-}
+    }
