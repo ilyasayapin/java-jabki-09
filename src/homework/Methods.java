@@ -47,7 +47,6 @@ public class Methods {
         return amount;
     }
 
-
     // 7. Проверьте, содержится ли число 42 в списке
     public static void chek(List<Integer> list) {
         if (list.contains(42)) {
@@ -56,24 +55,23 @@ public class Methods {
             System.out.println("Число 42 в списке отсутствует");
     }
 
+    // 8. Найдите и выведите минимальное и максимальное число в списке
+    public static void minMax(List<Integer> list) {
+        int min = list.get(0);
+        int max = list.get(0);
+        for (int i = 1; i < list.size(); i++) {
+            if (list.get(i) < min) {
+                min = list.get(i);
+            } else if (list.get(i) > max) {
+                max = list.get(i);
+            }
+        }
+        System.out.println("Минимальный элемент: " + min);
+        System.out.println("Максимальный элемент: " + max);
+    }
+
 
 /*
-    //    8. Найдите и выведите минимальное и максимальное число в списке
-    int min = list.get(0);
-    int max = list.get(0);
-        for(
-    int i = 1; i<list.size();i++)
-
-    {
-        if (list.get(i) < min) {
-            min = list.get(i);
-        } else if (list.get(i) > max) {
-            max = list.get(i);
-        }
-    }
-        System.out.println("Минимальный элемент: "+min);
-        System.out.println("Максимальный элемент: "+max);
-
 //    9. Удалите из списка все числа, делящиеся на 2.
         for(
     int i = list.size() - 1;
