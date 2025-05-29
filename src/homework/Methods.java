@@ -102,23 +102,18 @@ public class Methods {
         System.out.printf("Количество элементов, больше чем число %s, равно %s", n, count);
     }
 
+    // 12. Создайте список строк. Выведите строки, длина которых больше 5
+    public static void dlinnyeStroki(List<String> list) {
+        for (String y : list) {
+            if (y.length() > 5)
+                System.out.println(y);
+        }
 
 
-        /*
-//
-
-    //    12. Создайте список строк. Выведите строки, длина которых больше 5
-    List<String> myList = new ArrayList<String>();
-        myList.add("5букв");
-        myList.add("6 букв");
-        myList.add("7 буков");
-        for(
-    String y :myList)
-
-    {
-        if (y.length() > 5)
-            System.out.println(y);
     }
+
+
+                /*
 
 //    13. Напишите метод, который возвращает список в обратном порядке
         System.out.println(InvertList.shuffle(list));

@@ -47,6 +47,14 @@ public class Main {
         Integer[] array = {1, 9, 15, 7, 6, 10};
         List<Integer> newList = Arrays.asList(array);
         Methods.countMaxThenN(newList, 7);
+        System.out.println();
+
+//    12. Создайте список строк. Выведите строки, длина которых больше 5
+        List<String> myList = new ArrayList<String>();
+        myList.add("5букв");
+        myList.add("6 букв");
+        myList.add("7 буков");
+        Methods.dlinnyeStroki(myList);
 
 
 
