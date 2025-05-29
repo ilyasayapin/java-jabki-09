@@ -66,7 +66,7 @@ public class Main {
         System.out.println("Максимальный элемент: " + max);
 
 //    9. Удалите из списка все числа, делящиеся на 2.
-        for (int i = list.size(); i >= 0; i--) {
+        for (int i = list.size() - 1; i >= 0; i--) {
             if (list.get(i) % 2 == 0) {
                 list.remove(i);
             }
