@@ -108,37 +108,23 @@ public class Methods {
             if (y.length() > 5)
                 System.out.println(y);
         }
-
-
     }
 
-
-                /*
-
-//    13. Напишите метод, который возвращает список в обратном порядке
-        System.out.println(InvertList.shuffle(list));
-
-    //    14. Даны два списка. Объедините их в один, не добавляя повторы
-    List<Integer> ListOne = new ArrayList<Integer>();
-        ListOne.add(1);
-        ListOne.add(2);
-        ListOne.add(3);
-    List<Integer> ListTwo = new ArrayList<Integer>();
-        ListTwo.add(4);
-        ListTwo.add(2);
-        ListTwo.add(5);
-        ListTwo.add(6);
-    List<Integer> resultList = new ArrayList<Integer>();
-        resultList.addAll(ListOne);
-        for(
-    Integer num :ListTwo)
-
-    {
-        if (!ListOne.contains(num)) {
-            resultList.add(num);
+    // 14. Даны два списка. Объедините их в один, не добавляя повторы
+    public static void unionLists(List<Integer> listOne, List<Integer> listTwo) {
+        List<Integer> resultList = new ArrayList<Integer>();
+        resultList.addAll(listOne);
+        for (Integer num : listTwo) {
+            if (!listOne.contains(num)) {
+                resultList.add(num);
+            }
         }
+        System.out.println("Объединенный лист:" + resultList);
+
     }
-        System.out.println("Объединенный лист:"+resultList);
+
+
+         /*
 
     //    15. Считайте List<Integer> и посчитайте сумму только нечётных чисел
     int sumOdd = 0;

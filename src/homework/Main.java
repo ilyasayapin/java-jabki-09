@@ -56,7 +56,20 @@ public class Main {
         myList.add("7 буков");
         Methods.dlinnyeStroki(myList);
 
+//    13. Напишите метод, который возвращает список в обратном порядке
+        System.out.println(InvertList.swap(list));
 
+//    14. Даны два списка. Объедините их в один, не добавляя повторы
+        List<Integer> listOne = new ArrayList<Integer>();
+        listOne.add(1);
+        listOne.add(2);
+        listOne.add(3);
+        List<Integer> listTwo = new ArrayList<Integer>();
+        listTwo.add(4);
+        listTwo.add(2);
+        listTwo.add(5);
+        listTwo.add(6);
+        Methods.unionLists(listOne, listTwo);
 
 
     }

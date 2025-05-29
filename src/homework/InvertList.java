@@ -5,7 +5,7 @@ import java.util.List;
 
 public class InvertList {
 
-    public static List<Integer> shuffle(List<Integer> myList) {
+    public static List<Integer> swap(List<Integer> myList) {
         List<Integer> invertList = new ArrayList<>();
         for (int i = myList.size() - 1; i >= 0; i--) {
             invertList.add(myList.get(i));
