@@ -82,4 +82,3 @@ public class Main {
         System.out.println("Список из строк на А: " + Methods.foodOnA(food));
     }
 }
-
