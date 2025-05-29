@@ -120,42 +120,28 @@ public class Methods {
             }
         }
         System.out.println("Объединенный лист:" + resultList);
-
     }
 
-
-         /*
-
-    //    15. Считайте List<Integer> и посчитайте сумму только нечётных чисел
-    int sumOdd = 0;
-        for(
-    int z :resultList)
-
-    {
-        if (z % 2 != 0) {
-            sumOdd = sumOdd + z;
+    // 15. Считайте List<Integer> и посчитайте сумму только нечётных чисел
+    public static int sumOdd(List<Integer> list) {
+        int sumOdd = 0;
+        for (int z : list) {
+            if (z % 2 != 0) {
+                sumOdd = sumOdd + z;
+            }
         }
+        return sumOdd;
     }
-        System.out.println("Сумма четных чисел: "+sumOdd);
 
-    //    16. Дан список строк. Верните новый список, содержащий только строки, начинающиеся с буквы "А"
-    List<String> food = new ArrayList<String>();
-        food.add("Арбуз");
-        food.add("Тыква");
-        food.add("Абрикос");
-        food.add("Помидор");
-    List<String> foodOnA = new ArrayList<String>();
-        for(
-    String j :food)
-
-    {
-        if (j.startsWith("А")) {
-            foodOnA.add(j);
+    // 16. Дан список строк. Верните новый список, содержащий только строки, начинающиеся с буквы "А"
+    public static List<String> foodOnA(List<String> list) {
+        List<String> foodOnA = new ArrayList<String>();
+        for (String j : list) {
+            if (j.startsWith("А")) {
+                foodOnA.add(j);
+            }
         }
+        return foodOnA;
     }
-        System.out.println("Строки на А: "+foodOnA);
-
-*/
-
 }
 

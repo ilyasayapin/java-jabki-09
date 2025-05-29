@@ -71,7 +71,15 @@ public class Main {
         listTwo.add(6);
         Methods.unionLists(listOne, listTwo);
 
+//    15. Считайте List<Integer> и посчитайте сумму только нечётных чисел
+        System.out.println("Сумма нечетных чисел: " + Methods.sumOdd(list));
 
+//    16. Дан список строк. Верните новый список, содержащий только строки, начинающиеся с буквы "А"
+        List<String> food = new ArrayList<String>();
+        food.add("Арбуз");
+        food.add("Тыква");
+        food.add("Абрикос");
+        System.out.println("Список из строк на А: " + Methods.foodOnA(food));
     }
 }
 
