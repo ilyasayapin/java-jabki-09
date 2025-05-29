@@ -36,6 +36,9 @@ public class Main {
 //    8. Найдите и выведите минимальное и максимальное число в списке
         Methods.minMax(list);
 
+//    9. Удалите из списка все числа, делящиеся на 2.
+        System.out.println(Methods.delChetn(list));
+
 
 
 

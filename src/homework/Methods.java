@@ -70,19 +70,22 @@ public class Methods {
         System.out.println("Максимальный элемент: " + max);
     }
 
+    // 9. Удалите из списка все числа, делящиеся на 2.
+    public static List<Integer> delChetn(List<Integer> list) {
+        List<Integer> newList = new ArrayList<>(list);
+        for (int i = newList.size() - 1;
+             i >= 0; i--) {
+            if (newList.get(i) % 2 == 0) {
+                newList.remove(i);
+            }
+        }
+        return newList;
+    }
+
+
 
 /*
-//    9. Удалите из списка все числа, делящиеся на 2.
-        for(
-    int i = list.size() - 1;
-    i >=0;i--)
-
-    {
-        if (list.get(i) % 2 == 0) {
-            list.remove(i);
-        }
-    }
-        System.out.println(list);
+//
 
     //    10. Создайте список из массива int[] arr = {1, 2, 3, 4}.
     int[] arr = {1, 2, 3, 4};
