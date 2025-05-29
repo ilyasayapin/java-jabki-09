@@ -36,32 +36,28 @@ public class Methods {
         return sum;
     }
 
-
-          /*
-    //    6. Подсчитайте, сколько раз в списке встречается число 7
-    int amount = 0;
-        for(
-    int i = 0; i<list.size();i++)
-
-    {
-        if (list.get(i).equals(7)) {
-            amount++;
+    // 6. Подсчитайте, сколько раз в списке встречается число 7
+    public static int count(List<Integer> list) {
+        int amount = 0;
+        for (int i = 0; i < list.size(); i++) {
+            if (list.get(i).equals(7)) {
+                amount++;
+            }
         }
-    }
-        System.out.printf("Число 7 повторяется в списке %s раз",amount);
-        System.out.println();
-
-//    7. Проверьте, содержится ли число 42 в списке
-        if(list.contains(42))
-
-    {
-        System.out.println("Число 42 есть в списке");
-    } else
-
-    {
-        System.out.println("Число 42 в списке отсутствует");
+        return amount;
     }
 
+
+    // 7. Проверьте, содержится ли число 42 в списке
+    public static void chek(List<Integer> list) {
+        if (list.contains(42)) {
+            System.out.println("Число 42 есть в списке");
+        } else
+            System.out.println("Число 42 в списке отсутствует");
+    }
+
+
+/*
     //    8. Найдите и выведите минимальное и максимальное число в списке
     int min = list.get(0);
     int max = list.get(0);
@@ -185,3 +181,4 @@ public class Methods {
 */
 
 }
+
