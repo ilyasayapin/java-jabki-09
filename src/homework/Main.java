@@ -131,7 +131,7 @@ public class Main {
                 sumOdd = sumOdd + z;
             }
         }
-        System.out.println("Сумма четных чисел: " + sumChetn);
+        System.out.println("Сумма четных чисел: " + sumOdd);
 
 //    16. Дан список строк. Верните новый список, содержащий только строки, начинающиеся с буквы "А"
         List<String> food = new ArrayList<String>();
