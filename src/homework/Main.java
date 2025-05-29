@@ -39,6 +39,10 @@ public class Main {
 //    9. Удалите из списка все числа, делящиеся на 2.
         System.out.println(Methods.delChetn(list));
 
+//    10. Создайте список из массива int[] arr = {1, 2, 3, 4}.
+        int[] arr = {1, 2, 3, 4};
+        System.out.println(Methods.spisok(arr));
+
 
 
 

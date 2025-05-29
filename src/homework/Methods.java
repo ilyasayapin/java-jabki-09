@@ -82,21 +82,19 @@ public class Methods {
         return newList;
     }
 
-
-
-/*
-//
-
     //    10. Создайте список из массива int[] arr = {1, 2, 3, 4}.
-    int[] arr = {1, 2, 3, 4};
-    List<Integer> spisok = new ArrayList<>();
-        for(
-    int p :arr)
-
-    {
-        spisok.add(p);
+    public static List<Integer> spisok(int[] arr) {
+        List<Integer> spisok = new ArrayList<>();
+        for (int p : arr) {
+            spisok.add(p);
+        }
+        return spisok;
     }
 
+
+
+        /*
+//
     //    11. Найдите количество элементов, больше чем число N
     Integer[] array = {1, 9, 15, 7, 6, 10};
     List<Integer> newList = Arrays.asList(array);
