@@ -82,7 +82,7 @@ public class Methods {
         return newList;
     }
 
-    //    10. Создайте список из массива int[] arr = {1, 2, 3, 4}.
+    // 10. Создайте список из массива int[] arr = {1, 2, 3, 4}.
     public static List<Integer> spisok(int[] arr) {
         List<Integer> spisok = new ArrayList<>();
         for (int p : arr) {
@@ -91,24 +91,21 @@ public class Methods {
         return spisok;
     }
 
+    // 11. Найдите количество элементов, больше чем число N
+    public static void countMaxThenN(List<Integer> list, int n) {
+        int count = 0;
+        for (int x : list) {
+            if (x > n) {
+                count++;
+            }
+        }
+        System.out.printf("Количество элементов, больше чем число %s, равно %s", n, count);
+    }
+
 
 
         /*
 //
-    //    11. Найдите количество элементов, больше чем число N
-    Integer[] array = {1, 9, 15, 7, 6, 10};
-    List<Integer> newList = Arrays.asList(array);
-    int n = 7;
-    int count = 0;
-        for(
-    int x :newList)
-
-    {
-        if (x > n) {
-            count++;
-        }
-    }
-        System.out.printf("Количество элементов, больше чем число %s, равно %s",n,count);
 
     //    12. Создайте список строк. Выведите строки, длина которых больше 5
     List<String> myList = new ArrayList<String>();

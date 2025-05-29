@@ -43,6 +43,11 @@ public class Main {
         int[] arr = {1, 2, 3, 4};
         System.out.println(Methods.spisok(arr));
 
+//    11. Найдите количество элементов, больше чем число N
+        Integer[] array = {1, 9, 15, 7, 6, 10};
+        List<Integer> newList = Arrays.asList(array);
+        Methods.countMaxThenN(newList, 7);
+
 
 
 
