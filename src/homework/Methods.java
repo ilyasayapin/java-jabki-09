@@ -27,19 +27,17 @@ public class Methods {
         return newList;
     }
 
+    // 5. Найдите сумму всех чисел в списке
+    public static int sumOfList(List<Integer> list) {
+        int sum = 0;
+        for (int i = 0; i < list.size(); i++) {
+            sum += list.get(i);
+        }
+        return sum;
+    }
+
 
           /*
-
-    //    5. Найдите сумму всех чисел в списке
-    int sum = 0;
-        for(
-    int i = 0; i<list.size();i++)
-
-    {
-        sum += list.get(i);
-    }
-        System.out.println(sum);
-
     //    6. Подсчитайте, сколько раз в списке встречается число 7
     int amount = 0;
         for(
@@ -186,4 +184,4 @@ public class Methods {
 
 */
 
-    }
+}

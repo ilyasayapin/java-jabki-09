@@ -23,6 +23,10 @@ public class Main {
 //    4. Удалите второй элемент списка и выведите оставшиеся
         System.out.println(Methods.rmvSecondElement(list));
 
+//    5. Найдите сумму всех чисел в списке
+        System.out.println(Methods.sumOfList(list));
+
+
 
 
     }
