@@ -57,7 +57,7 @@ public class Main {
         Methods.dlinnyeStroki(myList);
 
 //    13. Напишите метод, который возвращает список в обратном порядке
-        System.out.println(InvertList.swap(list));
+        System.out.println(Methods.swap(list));
 
 //    14. Даны два списка. Объедините их в один, не добавляя повторы
         List<Integer> listOne = new ArrayList<Integer>();

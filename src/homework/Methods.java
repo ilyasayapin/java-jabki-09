@@ -109,6 +109,15 @@ public class Methods {
         }
     }
 
+    // 13. Напишите метод, который возвращает список в обратном порядке
+    public static List<Integer> swap(List<Integer> myList) {
+        List<Integer> invertList = new ArrayList<>();
+        for (int i = myList.size() - 1; i >= 0; i--) {
+            invertList.add(myList.get(i));
+        }
+        return invertList;
+    }
+
     // 14. Даны два списка. Объедините их в один, не добавляя повторы
     public static void unionLists(List<Integer> listOne, List<Integer> listTwo) {
         List<Integer> resultList = new ArrayList<Integer>();
