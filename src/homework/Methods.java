@@ -16,6 +16,9 @@ public class Methods {
 
     // 3. Выведите третий элемент списка
     public static Integer getThirdElement(List<Integer> list) {
+        if (list.size() <= 2) {
+            throw new IllegalArgumentException("Ошибка. В массиве менее трех элементов.");
+        }
         return list.get(2);
     }
 
